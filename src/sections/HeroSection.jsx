@@ -23,10 +23,10 @@ const HeroSection = () => {
               </h1>
               <div className="w-14 bg-red-700 h-1.5 ml-3 hidden lg:block "></div>
             </div>
-            <h1 className="text-7xl font-poppins font-medium text-white mb-10 text-center lg:text-left">
+            <h1 className="text-5xl lg:text-7xl font-poppins font-medium text-white mb-10 text-center lg:text-left">
               Tandirilambun
             </h1>
-            <p className="font-medium text-lg font-poppins text-white lg:pr-48 text-center lg:text-left">
+            <p className="font-medium text-base lg:text-lg font-poppins text-white lg:pr-48 text-center lg:text-left">
               a fresh graduate that have interest in Web Development especially
               Front-End and REST API development
             </p>

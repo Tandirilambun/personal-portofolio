@@ -2,7 +2,7 @@ const EducationSection = () => {
   return (
     <section id="education-section" className="bg-white py-16">
       <div className="container mx-auto">
-        <h1 className="text-7xl font-poppins text-black text-center font-semibold mb-20">
+        <h1 className="text-5xl lg:text-7xl font-poppins text-black text-center font-semibold mb-20">
           Education
         </h1>
         <div className="flex justify-center">
@@ -16,7 +16,7 @@ const EducationSection = () => {
               />
             </div>
             <div>
-              <h1 className="text-center font-poppins text-black mb-3 text-3xl font-bold ">
+              <h1 className="text-2xl text-center font-poppins text-black mb-3 lg:text-3xl font-bold ">
                 Duta Wacana Christian University
               </h1>
 

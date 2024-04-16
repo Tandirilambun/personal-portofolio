@@ -2,13 +2,13 @@ const Footer = () => {
   return (
     <section id="footer-section" className="pt-32 pb-20 bg-gray-900">
       <div className="container mx-auto">
-        <div className="px-10 flex flex-wrap">
+        <div className="md:px-10 flex flex-wrap">
           <div className="mb-20 lg:mb-0 lg:w-1/3 lg:mr-60 self-center w-full">
             <div>
-              <h1 className="mb-3 text-5xl lg:text-5xl font-poppins font-bold text-white">
+              <h1 className="text-center lg:text-left mb-3 text-5xl lg:text-5xl font-poppins font-bold text-white">
                 Contact
               </h1>
-              <h1 className="lg:pr-32 text-xl lg:text-xl font-poppins font-bold text-white">
+              <h1 className="text-center lg:text-left lg:pr-32 text-xl lg:text-xl font-poppins font-bold text-white">
                 Keep in touch with <span className="text-cyan-400">me </span>in my social platform
               </h1>
             </div>

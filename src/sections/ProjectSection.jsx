@@ -5,8 +5,8 @@ const ProjectSection = () => {
         <h1 className="text-5xl font-poppins text-black text-center font-semibold mb-40">
           Some of my latest <span className="text-red-600">Projects</span>
         </h1>
-        <div className="grid grid-cols-2 gap-x-20 gap-y-20">
-          <a href="https://github.com/Tandirilambun/tas-pwl-71190449" className="group flex flex-wrap">
+        <div className=" lg:grid lg:grid-cols-2 lg:gap-x-20 lg:gap-y-20">
+          <a href="https://github.com/Tandirilambun/tas-pwl-71190449" className="mb-10 lg:mb-0 group flex flex-wrap">
             <div className="mb-5">
               <img
                 src="preview/toko-wibu-preview.png"
@@ -43,7 +43,7 @@ const ProjectSection = () => {
               </div>
             </div>
           </a>
-          <a href="https://github.com/Tandirilambun/sistem-manajemen-rencana-strategis" className="group flex flex-wrap">
+          <a href="https://github.com/Tandirilambun/sistem-manajemen-rencana-strategis" className="mb-10 lg:mb-0 group flex flex-wrap">
             <div className="mb-5">
               <img
                 src="preview/renstra-preview.png"
@@ -81,7 +81,7 @@ const ProjectSection = () => {
               </div>
             </div>
           </a>
-          <a href="https://github.com/Tandirilambun/book-app-back-end" className="group flex flex-wrap">
+          <a href="https://github.com/Tandirilambun/book-app-back-end" className="mb-10 lg:mb-0 group flex flex-wrap">
             <div className="mb-5">
               <img
                 src="preview/bookshelf-illustration.jpg"
@@ -117,7 +117,7 @@ const ProjectSection = () => {
               </div>
             </div>
           </a>
-          <a href="https://github.com/Tandirilambun/authentication-system" className="group flex flex-wrap">
+          <a href="https://github.com/Tandirilambun/authentication-system" className="mb-10 lg:mb-0 group flex flex-wrap">
             <div className="mb-5">
               <img
                 src="preview/auth-illustration.jpg"
@@ -153,7 +153,7 @@ const ProjectSection = () => {
               </div>
             </div>
           </a>
-          <a href="https://github.com/Tandirilambun/personal-portofolio" className="group flex flex-wrap">
+          <a href="https://github.com/Tandirilambun/personal-portofolio" className="mb-10 lg:mb-0 group flex flex-wrap">
             <div className="mb-5">
               <img
                 src="preview/portofolio-preview.png"

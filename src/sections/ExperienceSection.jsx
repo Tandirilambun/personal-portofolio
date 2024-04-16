@@ -3,7 +3,7 @@ const ExperienceSection = () => {
     <section id="experience-section" className="bg-gray-50 py-40">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2">
-          <div className="w-full px-10 lg:w-full self-center mb-20">
+          <div className="w-full lg:px-10 lg:w-full self-center mb-20">
             <h1 className="text-center lg:text-left text-4xl font-poppins font-bold  text-black lg:w-full mb-10">
               Experience
             </h1>
@@ -32,9 +32,9 @@ const ExperienceSection = () => {
               </div>
             </div>
           </div>
-          <div className="w-full px-10 lg:w-full self-center h-full">
-            <h1 className=" text-center lg:text-left text-4xl font-poppins font-bold text-black lg:w-full mb-10">
-              Certification/Course
+          <div className="w-full lg:px-10 lg:w-full self-center h-full">
+            <h1 className="text-wrap text-center lg:text-left text-4xl font-poppins font-bold text-black lg:w-full mb-10">
+              Certification
             </h1>
             <a
               className="group"
@@ -43,7 +43,7 @@ const ExperienceSection = () => {
             >
               <div className="px-5 py-5 rounded-2xl bg-white shadow-lg">
                 <div className="flex">
-                  <div className="w-fit self-center mx-auto">
+                  <div className="hidden w-fit self-center mx-auto sm:block md:block lg:block">
                     <svg
                       width="100"
                       height="100"
