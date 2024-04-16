@@ -1,7 +1,7 @@
 const EducationSection = () => {
   return (
     <section id="education-section" className="bg-white py-16">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto">
         <h1 className="text-7xl font-poppins text-black text-center font-semibold mb-20">
           Education
         </h1>

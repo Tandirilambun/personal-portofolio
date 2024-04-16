@@ -1,7 +1,7 @@
 const ProjectSection = () => {
   return (
     <section id="project-section" className="bg-gray-50 py-40">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto">
         <h1 className="text-5xl font-poppins text-black text-center font-semibold mb-40">
           Some of my latest <span className="text-red-600">Projects</span>
         </h1>

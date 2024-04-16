@@ -3,7 +3,7 @@ import { Fragment } from "react";
 const HeroSection = () => {
   return (
     <section id="hero-section" className="bg-gray-900 pt-40 lg:pt-10">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto">
         <div className="lg:flex lg:flex-wrap min-h-screen">
           <div
             id="photo"

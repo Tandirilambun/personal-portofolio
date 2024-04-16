@@ -5,6 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    container:{
+      padding : '32px',
+    },
     extend: {
       fontFamily:{
         arvo: ['Arvo'],
