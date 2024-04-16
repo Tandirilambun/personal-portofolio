@@ -153,7 +153,7 @@ const ProjectSection = () => {
               </div>
             </div>
           </a>
-          <a href="" className="group flex flex-wrap">
+          <a href="https://github.com/Tandirilambun/personal-portofolio" className="group flex flex-wrap">
             <div className="mb-5">
               <img
                 src="preview/portofolio-preview.png"
