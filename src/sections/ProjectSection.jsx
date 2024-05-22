@@ -6,7 +6,10 @@ const ProjectSection = () => {
           Some of my latest <span className="text-red-600">Projects</span>
         </h1>
         <div className=" lg:grid lg:grid-cols-2 lg:gap-x-20 lg:gap-y-20">
-          <a href="https://github.com/Tandirilambun/tas-pwl-71190449" className="mb-10 lg:mb-0 group flex flex-wrap">
+          <a
+            href="https://github.com/Tandirilambun/tas-pwl-71190449"
+            className="mb-10 lg:mb-0 group flex flex-wrap"
+          >
             <div className="mb-5">
               <img
                 src="preview/toko-wibu-preview.png"
@@ -38,12 +41,18 @@ const ProjectSection = () => {
                   className="self-center group-hover:ease-in-out group-hover:duration-200 group-hover:scale-125"
                 >
                   <title>arrow-top-right</title>
-                  <path className="group-hover:fill-red-700" d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z" />
+                  <path
+                    className="group-hover:fill-red-700"
+                    d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z"
+                  />
                 </svg>
               </div>
             </div>
           </a>
-          <a href="https://github.com/Tandirilambun/sistem-manajemen-rencana-strategis" className="mb-10 lg:mb-0 group flex flex-wrap">
+          <a
+            href="https://github.com/Tandirilambun/sistem-manajemen-rencana-strategis"
+            className="mb-10 lg:mb-0 group flex flex-wrap"
+          >
             <div className="mb-5">
               <img
                 src="preview/renstra-preview.png"
@@ -76,12 +85,18 @@ const ProjectSection = () => {
                   className="self-center group-hover:ease-in-out group-hover:duration-200 group-hover:scale-125"
                 >
                   <title>arrow-top-right</title>
-                  <path className="group-hover:fill-red-700" d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z" />
+                  <path
+                    className="group-hover:fill-red-700"
+                    d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z"
+                  />
                 </svg>
               </div>
             </div>
           </a>
-          <a href="https://github.com/Tandirilambun/book-app-back-end" className="mb-10 lg:mb-0 group flex flex-wrap">
+          <a
+            href="https://github.com/Tandirilambun/book-app-back-end"
+            className="mb-10 lg:mb-0 group flex flex-wrap"
+          >
             <div className="mb-5">
               <img
                 src="preview/bookshelf-illustration.jpg"
@@ -99,8 +114,9 @@ const ProjectSection = () => {
                   NodeJS, Hapi
                 </p>
                 <p className="font-poppins text-xs lg:text-sm  font-light">
-                  This is a Dicoding course final project. This project aims to develop
-                  a API without database. This project develop using NodeJS and Hapi.
+                  This is a Dicoding course final project. This project aims to
+                  develop a API without database. This project develop using
+                  NodeJS and Hapi.
                 </p>
               </div>
               <div className="w-1/6 flex justify-center">
@@ -112,12 +128,18 @@ const ProjectSection = () => {
                   className="self-center group-hover:ease-in-out group-hover:duration-200 group-hover:scale-125"
                 >
                   <title>arrow-top-right</title>
-                  <path className="group-hover:fill-red-700" d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z" />
+                  <path
+                    className="group-hover:fill-red-700"
+                    d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z"
+                  />
                 </svg>
               </div>
             </div>
           </a>
-          <a href="https://github.com/Tandirilambun/authentication-system" className="mb-10 lg:mb-0 group flex flex-wrap">
+          <a
+            href="https://github.com/Tandirilambun/authentication-system"
+            className="mb-10 lg:mb-0 group flex flex-wrap"
+          >
             <div className="mb-5">
               <img
                 src="preview/auth-illustration.jpg"
@@ -135,8 +157,9 @@ const ProjectSection = () => {
                   NodeJS, ExpressJS, PostgreSQL
                 </p>
                 <p className="font-poppins text-xs lg:text-sm  font-light">
-                  This is a Authentication API which is a personal project. This project aims to develop
-                  a API with database. This project develop using NodeJS, ExpressJS and PostgreSQL.
+                  This is a Authentication API which is a personal project. This
+                  project aims to develop a API with database. This project
+                  develop using NodeJS, ExpressJS and PostgreSQL.
                 </p>
               </div>
               <div className="w-1/6 flex justify-center">
@@ -148,12 +171,18 @@ const ProjectSection = () => {
                   className="self-center group-hover:ease-in-out group-hover:duration-200 group-hover:scale-125"
                 >
                   <title>arrow-top-right</title>
-                  <path className="group-hover:fill-red-700" d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z" />
+                  <path
+                    className="group-hover:fill-red-700"
+                    d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z"
+                  />
                 </svg>
               </div>
             </div>
           </a>
-          <a href="https://github.com/Tandirilambun/personal-portofolio" className="mb-10 lg:mb-0 group flex flex-wrap">
+          <a
+            href="https://github.com/Tandirilambun/personal-portofolio"
+            className="mb-10 lg:mb-0 group flex flex-wrap"
+          >
             <div className="mb-5">
               <img
                 src="preview/portofolio-preview.png"
@@ -185,7 +214,55 @@ const ProjectSection = () => {
                   className="self-center group-hover:ease-in-out group-hover:duration-200 group-hover:scale-125"
                 >
                   <title>arrow-top-right</title>
-                  <path className="group-hover:fill-red-700" d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z" />
+                  <path
+                    className="group-hover:fill-red-700"
+                    d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="https://github.com/Tandirilambun/movie-app"
+            className="mb-10 lg:mb-0 group flex flex-wrap"
+          >
+            <div className="mb-5">
+              <img
+                src="preview/movie-app-preview.png"
+                alt=""
+                className="w-full rounded-xl shadow-xl"
+                loading="lazy"
+              />
+            </div>
+            <div className="flex flex-wrap">
+              <div className="w-5/6">
+                <h1 className="text-xl lg:text-2xl font-semibold font-poppins mb-3">
+                  Movie App
+                </h1>
+                <p className="font-poppins font-medium text-sm mb-3 text-gray-500">
+                  ReactJS, Tailwind CSS
+                </p>
+                <p className="font-poppins text-xs lg:text-sm  font-light">
+                  This is a Movie Database Website project which is a personal
+                  project that to build a movie website using external/public
+                  API from TMDB. This project develop using ReactJS with Vite
+                  and Tailwind.
+                </p>
+              </div>
+              <div className="w-1/6 flex justify-center">
+                <svg
+                  width="75"
+                  height="75"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  className="self-center group-hover:ease-in-out group-hover:duration-200 group-hover:scale-125"
+                >
+                  <title>arrow-top-right</title>
+                  <path
+                    className="group-hover:fill-red-700"
+                    d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z"
+                  />
                 </svg>
               </div>
             </div>
