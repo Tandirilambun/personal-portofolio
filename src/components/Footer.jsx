@@ -18,8 +18,8 @@ const Footer = () => {
               Social
             </h2>
             <div>
-              <div className="flex items-center mb-3 px-5 py-2 mr-5 hover:bg-cyan-400 hover:ease-in-out hover:duration-200">
-                <div className="border rounded-full p-1">
+              <div className="flex items-center mb-3 px-5 py-2 mr-5 group">
+                <div className="border rounded-full p-1 group-hover:bg-red-800 group-hover:ease-in-out group-hover:duration-200 group-hover:border-gray-900">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
@@ -35,48 +35,48 @@ const Footer = () => {
                   tandirilmbn@gmail.com
                 </h2>
               </div>
-              <div className="mb-3 px-5 py-2 mr-5 hover:bg-cyan-400 hover:ease-in-out hover:duration-200">
+              <div className="mb-3 px-5 py-2 mr-5 group">
                 <a href="https://www.instagram.com/tandirii/" className="flex items-center" target="blank">
                   <img
                     src="icon/instagram-logo.png"
                     alt=""
-                    className="h-8 border p-1 rounded-full"
+                    className="h-8 border p-1 rounded-full group-hover:bg-red-800 group-hover:ease-in-out group-hover:duration-200 group-hover:border-gray-900"
                   />
                   <p className="font-poppins text-white mx-3 font-medium">
                     Instagram
                   </p>
                 </a>
               </div>
-              <div className="mb-3 px-5 py-2 mr-5 hover:bg-cyan-400 hover:ease-in-out hover:duration-200">
-                <a href="https://www.linkedin.com/in/tandirilambun-tandirilambun/" className="flex items-center" target="blank">
+              <div className="mb-3 px-5 py-2 mr-5 group">
+                <a href="https://www.linkedin.com/in/tandirilambun-tandirilambun-4a0631318/" className="flex items-center" target="blank">
                   <img
                     src="icon/linkedin-logo.png"
                     alt=""
-                    className="h-8 border p-1 rounded-full"
+                    className="h-8 border p-1 rounded-full group-hover:bg-red-800 group-hover:ease-in-out group-hover:duration-200 group-hover:border-gray-900"
                   />
                   <p className="font-poppins text-white mx-3 font-medium">
                     Linked In
                   </p>
                 </a>
               </div>
-              <div className="mb-3 px-5 py-2 mr-5 hover:bg-cyan-400 hover:ease-in-out hover:duration-200">
+              <div className="mb-3 px-5 py-2 mr-5 group">
                 <a href="https://www.facebook.com/tndirilmbn/" className="flex items-center" target="blank">
                   <img
                     src="icon/facebook-logo-2.png"
                     alt=""
-                    className="h-8 border p-1 rounded-full"
+                    className="h-8 border p-1 rounded-full group-hover:bg-red-800 group-hover:ease-in-out group-hover:duration-200 group-hover:border-gray-900"
                   />
                   <p className="font-poppins text-white mx-3 font-medium">
                     Facebook
                   </p>
                 </a>
               </div>
-              <div className="mb-3 px-5 py-2 mr-5 hover:bg-cyan-400 hover:ease-in-out hover:duration-200">
-                <a href="https://github.com/Tandirilambun" className="flex items-center">
+              <div className="mb-3 px-5 py-2 mr-5 group">
+                <a href="https://github.com/Tandirilambun" className="flex items-center" target="blank">
                   <img
                     src="icon/github-icon.png"
                     alt=""
-                    className="h-8 border p-1 rounded-full"
+                    className="h-8 border p-1 rounded-full group-hover:bg-red-800 group-hover:ease-in-out group-hover:duration-200 group-hover:border-gray-900"
                   />
                   <p className="font-poppins text-white mx-3 font-medium">
                     Github
@@ -92,25 +92,25 @@ const Footer = () => {
             <div>
               <a
                 href="#hero-section"
-                className="mb-5 py-3 px-3 mr-5 flex font-poppins text-lg text-white mx-3 font-medium hover:bg-cyan-400 hover:ease-in-out hover:duration-200"
+                className="mb-5 py-3 px-3 mr-5 flex font-poppins text-lg text-white mx-3 font-medium hover:text-red-800 hover:ease-in-out hover:duration-200"
               >
                 Home
               </a>
               <a
                 href="#about-section"
-                className=" mb-5 py-3 px-3 mr-5 flex font-poppins text-lg text-white mx-3 font-medium hover:bg-cyan-400 hover:ease-in-out hover:duration-200"
+                className=" mb-5 py-3 px-3 mr-5 flex font-poppins text-lg text-white mx-3 font-medium hover:text-red-800 hover:ease-in-out hover:duration-200"
               >
                 About
               </a>
               <a
                 href="#skill-section"
-                className="mb-5 py-3 px-3 mr-5 flex font-poppins text-lg text-white mx-3 font-medium hover:bg-cyan-400 hover:ease-in-out hover:duration-200"
+                className="mb-5 py-3 px-3 mr-5 flex font-poppins text-lg text-white mx-3 font-medium hover:text-red-800 hover:ease-in-out hover:duration-200"
               >
                 Tech
               </a>
               <a
                 href="#project-section"
-                className="mb-5 py-3 px-3 mr-5 flex font-poppins text-lg text-white mx-3 font-medium hover:bg-cyan-400 hover:ease-in-out hover:duration-200"
+                className="mb-5 py-3 px-3 mr-5 flex font-poppins text-lg text-white mx-3 font-medium hover:text-red-800 hover:ease-in-out hover:duration-200"
               >
                 Project
               </a>

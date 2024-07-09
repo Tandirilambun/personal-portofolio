@@ -45,7 +45,7 @@ const Navbar = () => {
                     href="#hero-section"
                     className="text-base font-semibold font-poppins text-teal-500 py-2 mx-8 flex group-hover:text-red-400"
                   >
-                    Home
+                    Hero
                   </a>
                 </li>
                 <li className="group">
@@ -58,18 +58,18 @@ const Navbar = () => {
                 </li>
                 <li className="group">
                   <a
-                    href="#project-section"
-                    className="text-base font-semibold font-poppins text-teal-500 py-2 mx-8 flex group-hover:text-red-400"
-                  >
-                    Project
-                  </a>
-                </li>
-                <li className="group">
-                  <a
                     href="#skill-section"
                     className="text-base font-semibold font-poppins text-teal-500 py-2 mx-8 flex group-hover:text-red-400"
                   >
                     Tech
+                  </a>
+                </li>
+                <li className="group">
+                  <a
+                    href="#project-section"
+                    className="text-base font-semibold font-poppins text-teal-500 py-2 mx-8 flex group-hover:text-red-400"
+                  >
+                    Project
                   </a>
                 </li>
                 <li className="group">
@@ -90,7 +90,7 @@ const Navbar = () => {
                         className="h-6 m-1"
                       />
                     </a>
-                    <a href="https://www.linkedin.com/in/tandirilambun-tandirilambun/" className="bg-black rounded-md">
+                    <a href="https://www.linkedin.com/in/tandirilambun-tandirilambun-4a0631318/" className="bg-black rounded-md">
                       <img
                         src="icon/linkedin-logo.png"
                         alt=""
@@ -106,7 +106,7 @@ const Navbar = () => {
             <a href="https://www.instagram.com/tandirii/" className="bg-black rounded-xl">
               <img src="icon/instagram-logo.png" alt="" className="h-6 m-1" />
             </a>
-            <a href="https://www.linkedin.com/in/tandirilambun-tandirilambun/" className="bg-black rounded-md">
+            <a href="https://www.linkedin.com/in/tandirilambun-tandirilambun-4a0631318/" className="bg-black rounded-md">
               <img src="icon/linkedin-logo.png" alt="" className="h-6 m-1" />
             </a>
           </div>

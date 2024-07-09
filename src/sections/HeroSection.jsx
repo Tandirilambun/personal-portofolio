@@ -10,9 +10,9 @@ const HeroSection = () => {
             className="my-5 self-center w-full lg:w-1/2 lg:hidden"
           >
             <img
-              src="images/photo-1.jpg"
+              src="images/photo-3.jpg"
               alt="photo-1"
-              className="rounded-full object-cover h-40 w-40 mx-auto border-gray-300 "
+              className="rounded-full object-cover h-40 w-40 mx-auto border-red-300 "
               loading="lazy"
             />
           </div>
@@ -21,19 +21,37 @@ const HeroSection = () => {
               <h1 className="text-2xl font-poppins text-white underline underline-offset-8 decoration-[3px] decoration-red-700 lg:no-underline">
                 Introduction
               </h1>
-              <div className="w-14 bg-red-700 h-1.5 ml-3 hidden lg:block "></div>
+              <div className="red-line w-14 bg-red-700 h-1.5 ml-3 hidden lg:block "></div>
             </div>
-            <h1 className="text-5xl lg:text-7xl font-poppins font-medium text-white mb-10 text-center lg:text-left">
+            <h1 className="text-4xl lg:text-7xl font-poppins font-medium text-white mb-3 text-center lg:text-left">
               Tandirilambun
             </h1>
-            <p className="font-medium text-base lg:text-lg font-poppins text-white lg:pr-48 text-center lg:text-left">
+            <p className="font-light text-base lg:text-base font-poppins text-white lg:pr-48 text-center lg:text-left mb-3">
               a fresh graduate that have interest in Web Development especially
               Front-End and REST API development
             </p>
             <div className="flex justify-center lg:justify-start">
-              <button className="bg-[url('/icon/oval.png')] text-base bg-cover bg-no-repeat text-white bg-center px-9 py-3 rounded-xl font-bold mt-5 font-poppins hover:ease-in-out hover:duration-200 hover:scale-110">
-                Connect with me
-              </button>
+              <a
+                href="doc/Curriculum_Vitae_Tandirilambun.pdf"
+                download="Tandirilambun_Curriculum_Vitae.pdf"
+                className="text-base text-white rounded-xl font-medium mt-5 font-poppins hover:ease-in-out hover:duration-200 hover:scale-110 flex"
+              >
+                Curriculum Vitae
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={2.5}
+                  stroke="white"
+                  className="size-5 ms-2"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
+                  />
+                </svg>
+              </a>
             </div>
           </div>
           <div
@@ -41,9 +59,9 @@ const HeroSection = () => {
             className="hidden lg:block my-5 self-center w-full lg:w-1/2 "
           >
             <img
-              src="images/photo-1.jpg"
+              src="images/photo-3.jpg"
               alt="photo-1"
-              className="border-4 h-[30rem] lg:h-[40rem] max-w-full mx-auto lg:rounded-tl-[14rem] lg:border-8 lg:rounded-br-[14rem] border-gray-300 "
+              className="border-4 h-[30rem] lg:h-[40rem] max-w-full mx-auto lg:rounded-tl-[14rem] lg:border-8 lg:rounded-br-[14rem] border-red-800 "
               loading="lazy"
             />
           </div>

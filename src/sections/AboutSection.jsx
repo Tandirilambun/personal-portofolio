@@ -44,7 +44,7 @@ const AboutSection = () => {
               development.
               <br />
               <br />
-              I graduate from Duta Wacana Christian University with majoring in
+              I graduate from <b>Duta Wacana Christian University</b> with majoring in
               Informatics Engineering. Trough the Merdeka Belajar Kampus
               Merdeka, I was fortunate to secure intern at SATUNAMA Yogyakarta
               Foundation as a Software Developer. My internship provided me

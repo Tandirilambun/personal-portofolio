@@ -1,0 +1,17 @@
+.red-line{
+    left: 19%;
+    position: absolute;
+    animation: left-to-right 1.5s infinite ease-in-out;
+}
+
+@keyframes left-to-right {
+    0%{
+        left: 19%;
+    }
+    50%{
+        left: 25%;
+    }
+    100%{
+        left: 19%;
+    }
+}

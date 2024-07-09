@@ -1,3 +1,4 @@
+import "./App.css";
 import HeroSection from "./sections/HeroSection";
 import AboutSection from "./sections/AboutSection";
 import EducationSection from "./sections/EducationSection";
@@ -7,10 +8,9 @@ import ProjectSection from "./sections/ProjectSection";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import MarqueeText from "./components/Marquee";
-ProjectSection
 function App() {
   return (
-    <div className="overflow-y-auto">
+    <div className="overflow-y-auto scroll-smooth">
       <Navbar />
       <HeroSection />
       <AboutSection />
