@@ -2,23 +2,20 @@ const Footer = () => {
   return (
     <section id="footer-section" className="pt-32 pb-20 bg-gray-900">
       <div className="container mx-auto">
-        <div className="md:px-10 flex flex-wrap">
-          <div className="mb-20 lg:mb-0 lg:w-1/3 lg:mr-60 self-center w-full">
+        <div className="flex gap-x-20 mb-20">
+          <div className="mb-20 lg:mb-0 self-center w-fit">
             <div>
               <h1 className="text-center lg:text-left mb-3 text-5xl lg:text-5xl font-poppins font-bold text-white">
                 Contact
               </h1>
-              <h1 className="text-center lg:text-left lg:pr-32 text-xl lg:text-xl font-poppins font-bold text-white">
+              <h1 className="text-center lg:text-left text-xl lg:text-xl font-poppins font-bold text-white">
                 Keep in touch with <span className="text-cyan-400">me </span>in my social platform
               </h1>
             </div>
           </div>
-          <div className="lg:w-1/4">
-            <h2 className="mb-8 text-4xl lg:text-4xl text-ce font-poppins font-bold text-white">
-              Social
-            </h2>
-            <div>
-              <div className="flex items-center mb-3 px-5 py-2 mr-5 group">
+          <div className="">
+            <div className="grid grid-cols-3 gap-x-10 gap-y-10">
+              <div className="flex items-center group">
                 <div className="border rounded-full p-1 group-hover:bg-red-800 group-hover:ease-in-out group-hover:duration-200 group-hover:border-gray-900">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +32,7 @@ const Footer = () => {
                   tandirilmbn@gmail.com
                 </h2>
               </div>
-              <div className="mb-3 px-5 py-2 mr-5 group">
+              <div className="group">
                 <a href="https://www.instagram.com/tandirii/" className="flex items-center" target="blank">
                   <img
                     src="icon/instagram-logo.png"
@@ -47,7 +44,7 @@ const Footer = () => {
                   </p>
                 </a>
               </div>
-              <div className="mb-3 px-5 py-2 mr-5 group">
+              <div className="group">
                 <a href="https://www.linkedin.com/in/tandirilambun-tandirilambun-4a0631318/" className="flex items-center" target="blank">
                   <img
                     src="icon/linkedin-logo.png"
@@ -59,7 +56,7 @@ const Footer = () => {
                   </p>
                 </a>
               </div>
-              <div className="mb-3 px-5 py-2 mr-5 group">
+              <div className="group">
                 <a href="https://www.facebook.com/tndirilmbn/" className="flex items-center" target="blank">
                   <img
                     src="icon/facebook-logo-2.png"
@@ -71,7 +68,7 @@ const Footer = () => {
                   </p>
                 </a>
               </div>
-              <div className="mb-3 px-5 py-2 mr-5 group">
+              <div className="group">
                 <a href="https://github.com/Tandirilambun" className="flex items-center" target="blank">
                   <img
                     src="icon/github-icon.png"
@@ -85,40 +82,9 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="lg:w-1/5">
-            <h2 className="mb-8 text-4xl lg:text-4xl font-poppins font-bold text-white">
-              Navigation
-            </h2>
-            <div>
-              <a
-                href="#hero-section"
-                className="mb-5 py-3 px-3 mr-5 flex font-poppins text-lg text-white mx-3 font-medium hover:text-red-800 hover:ease-in-out hover:duration-200"
-              >
-                Home
-              </a>
-              <a
-                href="#about-section"
-                className=" mb-5 py-3 px-3 mr-5 flex font-poppins text-lg text-white mx-3 font-medium hover:text-red-800 hover:ease-in-out hover:duration-200"
-              >
-                About
-              </a>
-              <a
-                href="#skill-section"
-                className="mb-5 py-3 px-3 mr-5 flex font-poppins text-lg text-white mx-3 font-medium hover:text-red-800 hover:ease-in-out hover:duration-200"
-              >
-                Tech
-              </a>
-              <a
-                href="#project-section"
-                className="mb-5 py-3 px-3 mr-5 flex font-poppins text-lg text-white mx-3 font-medium hover:text-red-800 hover:ease-in-out hover:duration-200"
-              >
-                Project
-              </a>
-            </div>
-          </div>
         </div>
         <hr />
-        <h1 className="text-white text-center font-poppins mt-2">
+        <h1 className="text-white text-center font-poppins mt-2 ">
           Copyright &copy; 2024. Made by Tandirilambun with <span className="text-[#88dded]">ReactJS</span> and <span className="text-[#3490dc]">Tailwind CSS</span>
         </h1>
       </div>

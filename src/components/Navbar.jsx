@@ -18,7 +18,7 @@ const Navbar = () => {
     });
   },[]);
   return (
-    <header className="fixed top-0 left-0 w-full flex items-center z-10 bg-gray-900/60 backdrop-blur-sm">
+    <header className="fixed top-0 left-0 w-full flex items-center bg-gray-900/60 backdrop-blur-sm z-[999]">
       <div className="container mx-auto px-4 text-white py-4 lg:py-0">
         <div className="relative flex items-center justify-between">
           <div>

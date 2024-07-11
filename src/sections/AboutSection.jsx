@@ -37,7 +37,7 @@ const AboutSection = () => {
               A short story about <span className="text-red-600"> me </span>
             </h1>
             <p className="text-justify lg:text-left font-normal font-poppins text-sm lg:text-base lg:pr-10 text-zinc-700">
-              Introducing my name is Tandirilambun, im usually called as{" "}
+              Introducing my name is Tandirilambun, I'm usually called as{" "}
               <b className="text-red-600">Tandiri/Ten</b>, and I come from Indonesia. Now im seeking for
               employment opportunities. I have strongly interested in web and
               mobile development especially for Front-End developer and API

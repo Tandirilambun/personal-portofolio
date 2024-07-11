@@ -11,7 +11,8 @@ export default {
     extend: {
       fontFamily:{
         arvo: ['Arvo'],
-        poppins:['Poppins']
+        poppins:['Poppins'],
+        courier: ['Courier Prime']
       }
     },
   },
