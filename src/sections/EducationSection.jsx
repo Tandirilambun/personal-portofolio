@@ -1,6 +1,6 @@
 const EducationSection = () => {
   return (
-    <section id="education-section" className="bg-gray-900 py-16 text-white">
+    <section id="education-section" className="bg-gray-900 py-40 text-white">
       <div className="container mx-auto">
         <h1 className="text-5xl lg:text-7xl font-poppins text-center font-semibold mb-20">
           Education

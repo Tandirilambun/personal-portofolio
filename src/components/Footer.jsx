@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <section id="footer-section" className="pt-32 pb-20 bg-gray-900">
       <div className="container mx-auto">
-        <div className="flex gap-x-20 mb-20">
+        <div className="lg:flex gap-x-20 mb-20">
           <div className="mb-20 lg:mb-0 self-center w-fit">
             <div>
               <h1 className="text-center lg:text-left mb-3 text-5xl lg:text-5xl font-poppins font-bold text-white">
@@ -14,7 +14,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="">
-            <div className="grid grid-cols-3 gap-x-10 gap-y-10">
+            <div className="grid lg:grid-cols-3 lg:gap-x-10 lg:gap-y-10 grid-cols-1 gap-y-5">
               <div className="flex items-center group">
                 <div className="border rounded-full p-1 group-hover:bg-red-800 group-hover:ease-in-out group-hover:duration-200 group-hover:border-gray-900">
                   <svg

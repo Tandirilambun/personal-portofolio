@@ -2,7 +2,7 @@ const ProjectSection = () => {
   return (
     <section id="project-section" className="bg-gray-50 py-40">
       <div className="container mx-auto">
-        <h1 className="text-5xl font-poppins text-black text-center font-bold mb-40">
+        <h1 className="text-5xl font-poppins text-black text-center font-bold lg:mb-40 mb-20">
           Some of my latest <span className="text-red-600">Projects</span>
         </h1>
         <div className=" lg:grid lg:grid-cols-2 lg:gap-x-20 lg:gap-y-20">

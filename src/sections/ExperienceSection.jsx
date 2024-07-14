@@ -4,7 +4,7 @@ const ExperienceSection = () => {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div className="w-full lg:px-10 lg:w-full self-center mb-20">
-            <h1 className="text-center lg:text-left text-4xl font-poppins font-bold  text-black lg:w-full mb-10">
+            <h1 className="text-center lg:text-left text-5xl font-poppins font-bold  text-black lg:w-full mb-20">
               Experience
             </h1>
             <div className="px-5 py-5 rounded-2xl bg-white shadow-lg">

@@ -1,11 +1,11 @@
 const AboutSection = () => {
   return (
-    <section id="about-section" className="min-h-screen bg-gray-50 py-10">
+    <section id="about-section" className="lg:min-h-screen bg-gray-50 py-40">
       <div className="container mx-auto">
-        <div className="flex flex-wrap min-h-screen ">
+        <div className="flex flex-wrap">
           <div
             id="photo"
-            className="hidden self-center w-full lg:w-1/2 lg:block"
+            className="hidden w-full lg:w-1/2 lg:block"
           >
             <img
               src="images/photo-2.jpg"
@@ -14,7 +14,7 @@ const AboutSection = () => {
               loading="lazy"
             />
           </div>
-          <div className="lg:px-10 w-full self-center lg:w-1/2">
+          <div className="lg:px-10 w-full h-fit lg:w-1/2">
             <div className="flex flex-wrap mb-4">
               <div
                 id="photo"
@@ -37,7 +37,7 @@ const AboutSection = () => {
               A short story about <span className="text-red-600"> me </span>
             </h1>
             <p className="text-justify lg:text-left font-normal font-poppins text-sm lg:text-base lg:pr-10 text-zinc-700">
-              Introducing my name is Tandirilambun, I'm usually called as{" "}
+              Hello! My name is Tandirilambun, I'm usually called as{" "}
               <b className="text-red-600">Tandiri/Ten</b>, and I come from Indonesia. Now im seeking for
               employment opportunities. I have strongly interested in web and
               mobile development especially for Front-End developer and API

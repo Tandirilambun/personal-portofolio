@@ -103,10 +103,10 @@ const Navbar = () => {
             </nav>
           </div>
           <div className="hidden lg:flex lg:items-center lg:gap-x-3">
-            <a href="https://www.instagram.com/tandirii/" className="bg-black rounded-xl">
+            <a href="https://www.instagram.com/tandirii/" className="hover:scale-125 hover:duration-300 ease-in-out scale-100 duration-300 rounded-xl">
               <img src="icon/instagram-logo.png" alt="" className="h-6 m-1" />
             </a>
-            <a href="https://www.linkedin.com/in/tandirilambun-tandirilambun-4a0631318/" className="bg-black rounded-md">
+            <a href="https://www.linkedin.com/in/tandirilambun-tandirilambun-4a0631318/" className="hover:scale-125 hover:duration-300 ease-in-out scale-100 duration-300 rounded-md">
               <img src="icon/linkedin-logo.png" alt="" className="h-6 m-1" />
             </a>
           </div>

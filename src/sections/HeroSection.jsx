@@ -4,13 +4,13 @@ const HeroSection = () => {
   return (
     <section id="hero-section" className="bg-gray-900 pt-40 lg:pt-10">
       <div className="container mx-auto">
-        <div className="lg:flex lg:flex-wrap min-h-screen">
+        <div className="lg:flex lg:flex-wrap min-h-dvh">
           <div
             id="photo"
             className="my-5 self-center w-full lg:w-1/2 lg:hidden"
           >
             <img
-              src="images/photo-3.jpg"
+              src="images/photo-1.jpg"
               alt="photo-1"
               className="rounded-full object-cover h-40 w-40 mx-auto border-red-300 "
               loading="lazy"
@@ -18,18 +18,18 @@ const HeroSection = () => {
           </div>
           <div className="lg:pr-10 w-full self-center lg:w-1/2">
             <div className="flex mb-7 items-center justify-center lg:justify-start">
-              <h1 className="text-2xl font-poppins text-white underline underline-offset-8 decoration-[3px] decoration-red-700 lg:no-underline">
+              <h1 className="font-light text-2xl font-poppins text-white underline underline-offset-8 decoration-[3px] decoration-red-700 lg:no-underline">
                 Introduction
               </h1>
               
             </div>
-            <h1 className="text-4xl lg:text-7xl font-courier font-medium text-white text-center lg:text-left">
+            <h1 className="text-4xl lg:text-7xl font-poppins font-medium text-white text-center lg:text-left">
               Tandirilambun
             </h1>
             <div className="red-line w-52 bg-red-700 h-1.5 ml-3 hidden lg:block "></div>
-            <p className="font-light text-base lg:text-base font-poppins text-white lg:pr-48 text-center lg:text-left mt-7 mb-1">
+            <p className="text-base lg:text-base font-poppins text-white lg:pr-48 text-center lg:text-left mt-7 mb-1">
               a fresh graduate that have interest in Web Development especially
-              Front-End and REST API development
+              <b className="text-red-600"> Front-End</b> and <b className="text-red-600">REST API development</b>
             </p>
             <div className="flex justify-center lg:justify-start">
               <a
@@ -67,8 +67,8 @@ const HeroSection = () => {
             />
           </div>
         </div>
-        <div className="absolute top-24 left-[46%] w-full h-full z-10">
-          <svg viewBox="0 0 440 440" xmlns="http://www.w3.org/2000/svg">
+        <div className="absolute top-20 left-[44%] w-[58rem] z-10 hidden lg:block">
+          <svg viewBox="0 0 200 167" xmlns="http://www.w3.org/2000/svg">
             <path
               fill="#9EF0F0"
               d="M41.5,-76.2C50,-67.1,50.3,-48.1,50.6,-33.8C50.8,-19.5,51.1,-9.7,56.7,3.2C62.3,16.2,73.2,32.4,71.1,43.6C69,54.8,53.9,61,39.9,65.7C25.9,70.5,12.9,73.7,0.2,73.4C-12.6,73.1,-25.2,69.2,-33.8,61.4C-42.4,53.5,-47.1,41.7,-52.9,30.8C-58.8,19.9,-65.9,10,-68.8,-1.7C-71.7,-13.3,-70.3,-26.6,-62.5,-34.1C-54.8,-41.7,-40.5,-43.6,-29,-50.9C-17.5,-58.2,-8.8,-70.9,3.9,-77.6C16.6,-84.4,33.1,-85.2,41.5,-76.2Z"
